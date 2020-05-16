@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589629933892.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "886F4FB4",
+    "lastKnownWriteTime" : 1589629955,
+    "last_content_update" : 1589629955087,
+    "path" : "~/codebase/fortune_teller/did_i_do_that/www/enter_button.js",
+    "project_path" : "www/enter_button.js",
+    "properties" : {
+        "cursorPosition" : "2,10",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "js"
+}

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589630480591.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3266897997",
+    "id" : "7915A62A",
+    "lastKnownWriteTime" : 1589630490,
+    "last_content_update" : 1589630490776,
+    "path" : "~/codebase/fortune_teller/cleaning_generated_tweets.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "10,62",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

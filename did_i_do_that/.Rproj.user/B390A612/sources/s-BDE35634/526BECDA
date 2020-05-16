@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1589629424751.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1146574240",
+    "id" : "526BECDA",
+    "lastKnownWriteTime" : 1589630139,
+    "last_content_update" : 1589630139167,
+    "path" : "~/codebase/fortune_teller/did_i_do_that/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+        "cursorPosition" : "10,61",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,12 @@
+name: did_i_do_that
+title: did_i_do_that
+username:
+account: mm218
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2309594
+bundleId: 3154828
+url: https://mm218.shinyapps.io/did_i_do_that/
+when: 1589630154.62631
+asMultiple: FALSE
+asStatic: FALSE

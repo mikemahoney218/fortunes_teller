@@ -1,0 +1,45 @@
+#
+# This is a Shiny web application. You can run the application by clicking
+# the 'Run App' button above.
+#
+# Find out more about building applications with Shiny here:
+#
+#    http://shiny.rstudio.com/
+#
+
+library(shiny)
+
+# Define UI for application that draws a histogram
+ui <- fluidPage(
+
+    # Application title
+    titlePanel("Scan input dataset to make sure the bot actually came up with that"),
+
+    # Sidebar with a slider input for number of bins 
+    sidebarLayout(
+        sidebarPanel(
+            textInput("search", "Search string:")
+        ),
+
+        # Show a plot of the generated distribution
+        mainPanel(
+           textOutput("")
+        )
+    )
+)
+
+# Define server logic required to draw a histogram
+server <- function(input, output) {
+    input_data <- readLines("input_dataset.txt")
+
+    output$possible <- renderText({
+        if (length(input_data[grep(input$search, input_data, ignore.case = TRUE)]) == 0) {
+            return("Nada! Zilch! Bupkis!")
+        } else {
+            input_data[grep(input$search, input_data, ignore.case = TRUE)]
+        }
+    })
+}
+
+# Run the application 
+shinyApp(ui = ui, server = server)
